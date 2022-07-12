@@ -17,7 +17,7 @@ class ExpressServer {
     }
 
     _routes() {
-        this.app.head('/status', (req, res) => {
+        this.app.head(`${this.basepath}/status`, (req, res) => {
             res.status(200).end();
         });
         this.app.use(`${this.basepath}/characters`, require('../routes/characters.routes'));
