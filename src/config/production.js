@@ -9,6 +9,6 @@ module.exports = {
     //     dialect: process.env.DB_DIALECT
     // },
     API: {
-        prefix: ''
+        prefix: '/api/v1'
     }
 };
