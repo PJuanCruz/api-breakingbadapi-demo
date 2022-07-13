@@ -6,11 +6,11 @@ const getAllCharacters = async (req, res) => {
             include: [
                 {
                     association: 'quotes',
-                    attributes: ['quote']
+                    attributes: ['quote', 'quote_id']
                 },
                 {
                     association: 'appearance',
-                    attributes: ['title'],
+                    attributes: ['title', 'episode_id'],
                     through: {
                         attributes: []
                     }

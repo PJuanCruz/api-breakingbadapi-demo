@@ -25,6 +25,7 @@ class ExpressServer {
         });
         this.app.use(`${this.basepath}/characters`, require('../routes/characters.routes'));
         this.app.use(`${this.basepath}/quotes`, require('../routes/quotes.routes'));
+        this.app.use(`${this.basepath}/episodes`, require('../routes/episodes.routes'));
     }
 
     _notFound() {
