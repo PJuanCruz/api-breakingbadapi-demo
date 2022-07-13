@@ -1,6 +1,7 @@
 'use strict';
 
 const { Model } = require('sequelize');
+const formatDate = require('../utils/formatDate');
 
 module.exports = (sequelize, DataTypes) => {
     class Character extends Model {
@@ -11,7 +12,7 @@ module.exports = (sequelize, DataTypes) => {
          */
         static associate(models) {
             // define association here
-            Character.hasMany(models.Quote, {as: 'quotes', foreignKey: 'char_id'});
+            Character.hasMany(models.Quote, { as: 'quotes', foreignKey: 'char_id' });
             Character.belongsToMany(models.Episode, { as: 'appearance', through: 'Characters_Episodes', foreignKey: 'char_id' });
         }
     }
@@ -28,7 +29,13 @@ module.exports = (sequelize, DataTypes) => {
             allowNull: false
         },
         birthday: {
-            type: DataTypes.DATEONLY
+            type: DataTypes.DATEONLY,
+            set(value) {
+                this.setDataValue('birthday', formatDate(value));
+            }
+        },
+        status: {
+            type: DataTypes.ENUM(['Presumed dead', 'Alive', 'Deceased', 'Unknown'])
         }
     }, {
         sequelize,
