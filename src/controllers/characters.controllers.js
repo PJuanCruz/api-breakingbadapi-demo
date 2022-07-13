@@ -8,13 +8,13 @@ const getAllCharacters = async (req, res) => {
                     association: 'quotes',
                     attributes: ['quote', 'quote_id']
                 },
-                {
-                    association: 'appearance',
-                    attributes: ['title', 'episode_id'],
-                    through: {
-                        attributes: []
-                    }
-                }
+                // {
+                //     association: 'appearance',
+                //     attributes: ['title', 'episode_id'],
+                //     through: {
+                //         attributes: []
+                //     }
+                // }
             ]
         }
     );

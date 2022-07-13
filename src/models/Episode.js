@@ -21,6 +21,12 @@ module.exports = (sequelize, DataTypes) => {
         },
         title: {
             type: DataTypes.STRING
+        },
+        season: {
+            type: DataTypes.INTEGER
+        },
+        episode: {
+            type: DataTypes.INTEGER
         }
     }, {
         sequelize,

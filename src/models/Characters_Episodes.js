@@ -1,4 +1,5 @@
 'use strict';
+
 const { Character, Episode } = require('../models');
 
 const { Model } = require('sequelize');

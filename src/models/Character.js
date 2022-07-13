@@ -28,14 +28,41 @@ module.exports = (sequelize, DataTypes) => {
             unique: true,
             allowNull: false
         },
+        nickname: {
+            type: DataTypes.STRING
+        },
         birthday: {
             type: DataTypes.DATEONLY,
+            allowNull: true,
+            get() {
+                const value = this.getDataValue('birthday');
+                return value ? value : 'Unknown';
+            },
             set(value) {
                 this.setDataValue('birthday', formatDate(value));
             }
         },
         status: {
             type: DataTypes.ENUM(['Presumed dead', 'Alive', 'Deceased', 'Unknown'])
+        },
+        occupation: {
+            type: DataTypes.ARRAY(DataTypes.STRING)
+        },
+        img: {
+            type: DataTypes.STRING(500),
+            validate: {
+                isUrl: true
+            }
+        },
+        portrayed: {
+            type: DataTypes.STRING
+        },
+        category: {
+            // type: DataTypes.ARRAY(DataTypes.ENUM(['Breaking Bad', 'Better Call Saul'])),
+            type: DataTypes.ARRAY(DataTypes.STRING),
+            set(value) {
+                this.setDataValue('category', value.split(', '));
+            }
         }
     }, {
         sequelize,
