@@ -3,6 +3,7 @@ const { Character, Category } = require('../models');
 
 const getAllCharacters = async (req, res) => {
 
+    // QUERY PARAMETERS
     let { limit, pag, status, category, season, column, direction } = req.query;
 
     // PAGINATION
@@ -61,7 +62,8 @@ const getAllCharacters = async (req, res) => {
                     through: {
                         attributes: []
                     },
-                    where: where_appearance
+                    where: where_appearance,
+                    required: !!Object.keys(where_appearance).length,
                 }
             ],
             where: where,
@@ -72,6 +74,7 @@ const getAllCharacters = async (req, res) => {
         }
     );
 
+    // RESPONSE
     res.json(
         {
             count: count,

@@ -5,6 +5,7 @@ const isNumber = require('../utils/isNumber');
 const getAllQuotes = async (req, res, next) => {
     try {
 
+        // QUERY PARAMETERS
         let { limit, pag, author, column, direction } = req.query;
 
         // PAGINATION
@@ -47,6 +48,7 @@ const getAllQuotes = async (req, res, next) => {
             }
         );
 
+        // RESPONSE
         res.json(
             {
                 count: count,
