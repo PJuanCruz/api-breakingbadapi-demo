@@ -9,8 +9,7 @@ module.exports = {
             status: 'Presumed dead',
             occupation: ['High School Chemistry Teacher', 'Meth King Pin'],
             img: 'https://images.amcnetworks.com/amc.com/wp-content/uploads/2015/04/cast_bb_700x1000_walter-white-lg.jpg',
-            portrayed: 'Bryan Cranston',
-            category: ['Breaking Bad']
+            portrayed: 'Bryan Cranston'
         },
         {
             char_id: 2,
@@ -20,8 +19,7 @@ module.exports = {
             status: 'Alive',
             occupation: ['Meth Dealer'],
             img: 'https://vignette.wikia.nocookie.net/breakingbad/images/9/95/JesseS5.jpg/revision/latest?cb=20120620012441',
-            portrayed: 'Aaron Paul',
-            category: ['Breaking Bad']
+            portrayed: 'Aaron Paul'
         },
         {
             char_id: 3,
@@ -36,8 +34,7 @@ module.exports = {
                 'Taxi Dispatcher'
             ],
             img: 'https://s-i.huffpost.com/gen/1317262/images/o-ANNA-GUNN-facebook.jpg',
-            portrayed: 'Anna Gunn',
-            category: ['Breaking Bad']
+            portrayed: 'Anna Gunn'
         },
         {
             char_id: 4,
@@ -46,9 +43,8 @@ module.exports = {
             birthday: '1993-07-08',
             status: 'Alive',
             occupation: ['Teenager'],
-            img: 'https://media1.popsugar-assets.com/files/thumbor/WeLUSvbAMS_GL4iELYAUzu7Bpv0/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2018/01/12/910/n/1922283/fb758e62b5daf3c9_TCDBRBA_EC011/i/RJ-Mitte-Walter-White-Jr.jpg',
-            portrayed: 'RJ Mitte',
-            category: ['Breaking Bad']
+            img: 'https://media1.popsugar-assets.com/files/thumbor/WeLUSvbAMS_GL4iELYAUzu7Bpv0/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2018/01/12/910/n/1922283/fb758e62b5daf3c9_TCDBRBA_EC011/ i / RJ - Mitte - Walter - White - Jr.jpg',
+            portrayed: 'RJ Mitte'
         },
         {
             char_id: 5,
@@ -58,8 +54,7 @@ module.exports = {
             status: 'Deceased',
             occupation: ['DEA Agent'],
             img: 'https://vignette.wikia.nocookie.net/breakingbad/images/b/b7/HankS5.jpg/revision/latest/scale-to-width-down/700?cb=20120620014136',
-            portrayed: 'Dean Norris',
-            category: ['Breaking Bad']
+            portrayed: 'Dean Norris'
         },
         {
             char_id: 6,
@@ -69,8 +64,7 @@ module.exports = {
             status: 'Alive',
             occupation: ['Housewife', 'Clepto'],
             img: 'https://vignette.wikia.nocookie.net/breakingbad/images/1/10/Season_2_-_Marie.jpg/revision/latest?cb=20120617211645',
-            portrayed: 'Betsy Brandt',
-            category: ['Breaking Bad']
+            portrayed: 'Betsy Brandt'
         },
         {
             char_id: 7,
@@ -80,8 +74,7 @@ module.exports = {
             status: 'Deceased',
             occupation: ['Hitman', 'Private Investigator', 'Ex-Cop'],
             img: 'https://images.amcnetworks.com/amc.com/wp-content/uploads/2015/04/cast_bb_700x1000_mike-ehrmantraut-lg.jpg',
-            portrayed: 'Jonathan Banks',
-            category: ['Breaking Bad', 'Better Call Saul']
+            portrayed: 'Jonathan Banks'
         },
         {
             char_id: 8,
@@ -91,8 +84,7 @@ module.exports = {
             status: 'Alive',
             occupation: ['Lawyer'],
             img: 'https://vignette.wikia.nocookie.net/breakingbad/images/1/16/Saul_Goodman.jpg/revision/latest?cb=20120704065846',
-            portrayed: 'Bob Odenkirk',
-            category: ['Breaking Bad', 'Better Call Saul']
+            portrayed: 'Bob Odenkirk'
         },
         {
             char_id: 9,
@@ -102,8 +94,7 @@ module.exports = {
             status: 'Deceased',
             occupation: ['Los-Pollos co-Founder', 'Philanthropist', 'Cartel Leader'],
             img: 'https://vignette.wikia.nocookie.net/breakingbad/images/1/1f/BCS_S4_Gustavo_Fring.jpg/revision/latest?cb=20180824195925',
-            portrayed: 'Giancarlo Esposito',
-            category: ['Breaking Bad', 'Better Call Saul']
+            portrayed: 'Giancarlo Esposito'
         },
         {
             char_id: 10,
@@ -113,8 +104,7 @@ module.exports = {
             status: 'Deceased',
             occupation: ['Former Senior Cartel Leader'],
             img: 'https://vignette.wikia.nocookie.net/breakingbad/images/b/b4/Hector_BCS.jpg/revision/latest?cb=20170810091606',
-            portrayed: 'Mark Margolis',
-            category: ['Breaking Bad', 'Better Call Saul']
+            portrayed: 'Mark Margolis'
         },
         {
             char_id: 11,
@@ -124,8 +114,7 @@ module.exports = {
             status: 'Deceased',
             occupation: ['Meth Distributor'],
             img: 'https://vignette.wikia.nocookie.net/breakingbad/images/e/e7/Krazy8.png/revision/latest?cb=20130208041554',
-            portrayed: 'Maximino Arciniega',
-            category: ['Breaking Bad']
+            portrayed: 'Maximino Arciniega'
         },
         {
             char_id: 12,
@@ -135,8 +124,7 @@ module.exports = {
             status: 'Deceased',
             occupation: ['Meth Distributor'],
             img: 'https://vignette.wikia.nocookie.net/breakingbad/images/a/a7/Tuco_BCS.jpg/revision/latest?cb=20170810082445',
-            portrayed: 'Raymond Cruz',
-            category: ['Breaking Bad', 'Better Call Saul']
+            portrayed: 'Raymond Cruz'
         },
         {
             char_id: 13,
@@ -146,8 +134,7 @@ module.exports = {
             status: 'Deceased',
             occupation: ['Cartel Hitman'],
             img: 'https://images.amcnetworks.com/amc.com/wp-content/uploads/2015/04/cast_bb_700x1000_the-cousins-lg.jpg',
-            portrayed: 'Luis & Daniel Moncada',
-            category: ['Breaking Bad']
+            portrayed: 'Luis & Daniel Moncada'
         },
         {
             char_id: 14,
@@ -156,9 +143,8 @@ module.exports = {
             birthday: null,
             status: 'Deceased',
             occupation: ['Executive at Madrigal'],
-            img: 'https://media1.popsugar-assets.com/files/thumbor/wERDST0TUb-iHCSb2r5ZpsvaZLo/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2013/07/17/675/n/1922283/fae2f583f04bb80f_Laura-Fraser-is-back-as-Lydia-Rodarte-Quayle_gallery_primary/i/Laura-Fraser-Lydia-Rodarte-Quayle.jpg',
-            portrayed: 'Laura Fraser',
-            category: ['Breaking Bad']
+            img: 'https://media1.popsugar-assets.com/files/thumbor/wERDST0TUb-iHCSb2r5ZpsvaZLo/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2013/07/17/675/n/1922283/fae2f583f04bb80f_Laura-Fraser-is- back - as - Lydia - Rodarte - Quayle_gallery_primary / i / Laura - Fraser - Lydia - Rodarte - Quayle.jpg',
+            portrayed: 'Laura Fraser'
         },
         {
             char_id: 15,
@@ -168,8 +154,7 @@ module.exports = {
             status: 'Deceased',
             occupation: ['Lab Assistant', 'Enforcer', 'Meth Cook'],
             img: 'https://vignette.wikia.nocookie.net/breakingbad/images/9/95/Todd_brba5b.png/revision/latest?cb=20130717134303',
-            portrayed: 'Jesse Plemons',
-            category: ['Breaking Bad']
+            portrayed: 'Jesse Plemons'
         },
         {
             char_id: 16,
@@ -179,8 +164,7 @@ module.exports = {
             status: 'Deceased',
             occupation: ['Tattoo Artist', 'Landlord'],
             img: 'https://vignette.wikia.nocookie.net/breakingbad/images/b/b4/Jane.jpg/revision/latest?cb=20090621233653',
-            portrayed: 'Krysten Ritter',
-            category: ['Breaking Bad']
+            portrayed: 'Krysten Ritter'
         },
         {
             char_id: 17,
@@ -190,8 +174,7 @@ module.exports = {
             status: 'Alive',
             occupation: ['Low-level meth distributer'],
             img: 'https://vignette.wikia.nocookie.net/breaking-bad-tv/images/c/ce/Sp.png/revision/latest?cb=20121016143623',
-            portrayed: 'Charles Baker',
-            category: ['Breaking Bad']
+            portrayed: 'Charles Baker'
         },
         {
             char_id: 18,
@@ -201,8 +184,7 @@ module.exports = {
             status: 'Alive',
             occupation: ['Low-level meth distributer'],
             img: 'https://images.amcnetworks.com/amc.com/wp-content/uploads/2015/04/cast_bb_700x1000_badger-lg.jpg',
-            portrayed: 'Matt L. Jones',
-            category: ['Breaking Bad']
+            portrayed: 'Matt L. Jones'
         },
         {
             char_id: 19,
@@ -212,8 +194,7 @@ module.exports = {
             status: 'Alive',
             occupation: ['Bodyguard'],
             img: 'https://vignette.wikia.nocookie.net/breakingbad/images/c/c1/4x11_-_Huell.png/revision/latest?cb=20130913100459&path-prefix=es',
-            portrayed: 'Lavell Crawford',
-            category: ['Breaking Bad']
+            portrayed: 'Lavell Crawford'
         },
         {
             char_id: 20,
@@ -223,8 +204,7 @@ module.exports = {
             status: 'Deceased',
             occupation: ['DEA Agent'],
             img: 'https://images.amcnetworks.com/amc.com/wp-content/uploads/2015/04/cast_bb_700x1000_steven-gomez-lg.jpg',
-            portrayed: 'Steven Michael Quezada',
-            category: ['Breaking Bad']
+            portrayed: 'Steven Michael Quezada'
         },
         {
             char_id: 21,
@@ -234,8 +214,7 @@ module.exports = {
             status: 'Alive',
             occupation: ['Former President Beneke Fabricators'],
             img: 'https://vignette.wikia.nocookie.net/breakingbad/images/b/bd/Cast_bb_700x1000_todd-beneke-lg.jpg/revision/latest?cb=20170723165057',
-            portrayed: 'Christopher Cousins',
-            category: ['Breaking Bad']
+            portrayed: 'Christopher Cousins'
         },
         {
             char_id: 22,
@@ -245,8 +224,7 @@ module.exports = {
             status: 'Deceased',
             occupation: ['Chemist', 'Meth manufacturer'],
             img: 'https://images.amcnetworks.com/amc.com/wp-content/uploads/2015/04/cast_bb_700x1000_gale-boetticher-lg.jpg',
-            portrayed: 'David Costabile',
-            category: ['Breaking Bad']
+            portrayed: 'David Costabile'
         },
         {
             char_id: 23,
@@ -256,8 +234,7 @@ module.exports = {
             status: 'Deceased',
             occupation: ['Unknown'],
             img: 'https://vignette.wikia.nocookie.net/breakingbad/images/5/51/Andrea_-_To%27hajilee.png/revision/latest?cb=20131025094457',
-            portrayed: 'Emily Rios',
-            category: ['Breaking Bad']
+            portrayed: 'Emily Rios'
         },
         {
             char_id: 24,
@@ -267,8 +244,7 @@ module.exports = {
             status: 'Alive',
             occupation: ['Kid'],
             img: 'https://vignette.wikia.nocookie.net/breakingbad/images/9/97/Brock.png/revision/latest?cb=20170725193144',
-            portrayed: 'Ian Posada',
-            category: ['Breaking Bad']
+            portrayed: 'Ian Posada'
         },
         {
             char_id: 25,
@@ -278,8 +254,7 @@ module.exports = {
             status: 'Alive',
             occupation: ['High School Principal'],
             img: 'https://vignette.wikia.nocookie.net/breakingbad/images/d/de/Carmen.JPG/revision/latest?cb=20100410125233',
-            portrayed: 'Carmen Serano',
-            category: ['Breaking Bad']
+            portrayed: 'Carmen Serano'
         },
         {
             char_id: 26,
@@ -289,8 +264,7 @@ module.exports = {
             status: 'Alive',
             occupation: ['Co-owner Gray Matter'],
             img: 'https://vignette.wikia.nocookie.net/breakingbad/images/5/5e/Gretchen_Schwartz.png/revision/latest?cb=20131005103735&path-prefix=es',
-            portrayed: 'Jessica Hecht',
-            category: ['Breaking Bad']
+            portrayed: 'Jessica Hecht'
         },
         {
             char_id: 27,
@@ -300,8 +274,7 @@ module.exports = {
             status: 'Alive',
             occupation: ['Co-Founder Gray Matter'],
             img: 'https://vignette.wikia.nocookie.net/breakingbad/images/8/8a/Elliott_Schwartz.png/revision/latest?cb=20131005103743&path-prefix=es',
-            portrayed: 'Adam Godley',
-            category: ['Breaking Bad']
+            portrayed: 'Adam Godley'
         },
         {
             char_id: 28,
@@ -311,8 +284,7 @@ module.exports = {
             status: 'Deceased',
             occupation: ["Tuco's Bodyguard"],
             img: 'https://vignette.wikia.nocookie.net/breakingbad/images/d/d6/Gonzo.JPG/revision/latest?cb=20100415212944',
-            portrayed: 'Jesus, Payan, Jr.',
-            category: ['Breaking Bad']
+            portrayed: 'Jesus, Payan, Jr.'
         },
         {
             char_id: 29,
@@ -322,8 +294,7 @@ module.exports = {
             status: 'Deceased',
             occupation: ['Low-level meth distributor'],
             img: 'https://res.cloudinary.com/dwvrok1le/image/upload/v1540314304/c8acek3pimb0hb4efrvf.jpg',
-            portrayed: 'Rodney Rush',
-            category: ['Breaking Bad']
+            portrayed: 'Rodney Rush'
         },
         {
             char_id: 30,
@@ -333,8 +304,7 @@ module.exports = {
             status: 'Alive',
             occupation: ['unknown'],
             img: 'https://vignette.wikia.nocookie.net/breakingbad/images/a/a2/Tess_Harper.jpg/revision/latest?cb=20120923235754',
-            portrayed: 'Tess Harper',
-            category: ['Breaking Bad']
+            portrayed: 'Tess Harper'
         },
         {
             char_id: 31,
@@ -344,8 +314,7 @@ module.exports = {
             status: 'Alive',
             occupation: ['unknown'],
             img: 'https://vignette.wikia.nocookie.net/breakingbad/images/c/c9/AdamPinkman.png/revision/latest?cb=20141117180836&path-prefix=es',
-            portrayed: 'Michael Bofshever',
-            category: ['Breaking Bad']
+            portrayed: 'Michael Bofshever'
         },
         {
             char_id: 32,
@@ -355,8 +324,7 @@ module.exports = {
             status: 'Alive',
             occupation: ['Kid', "Jesse's little brother"],
             img: 'https://vignette.wikia.nocookie.net/breakingbad/images/a/a4/Jake.jpg/revision/latest?cb=20121214201656&path-prefix=de',
-            portrayed: 'Ben Petry',
-            category: ['Breaking Bad']
+            portrayed: 'Ben Petry'
         },
         {
             char_id: 33,
@@ -366,8 +334,7 @@ module.exports = {
             status: 'Deceased',
             occupation: ['Juarez Cartel Lieutenant'],
             img: 'https://vignette.wikia.nocookie.net/breakingbad/images/c/ca/No_Doze_2.png/revision/latest?cb=20131014073210',
-            portrayed: 'Cesar Garcia',
-            category: ['Breaking Bad']
+            portrayed: 'Cesar Garcia'
         },
         {
             char_id: 34,
@@ -377,8 +344,7 @@ module.exports = {
             status: 'Deceased',
             occupation: ['Low-level meth distributor'],
             img: 'https://vignette.wikia.nocookie.net/trbreakingbad/images/9/9c/Emilio.jpeg/revision/latest?cb=20161029192022',
-            portrayed: 'John Koyama',
-            category: ['Breaking Bad']
+            portrayed: 'John Koyama'
         },
         {
             char_id: 35,
@@ -388,8 +354,7 @@ module.exports = {
             status: 'Alive',
             occupation: ['Physician'],
             img: 'https://res.cloudinary.com/dwvrok1le/image/upload/v1540314509/lj5qlbe6xvmmpxnspz6y.jpg',
-            portrayed: 'David House',
-            category: ['Breaking Bad']
+            portrayed: 'David House'
         },
         {
             char_id: 36,
@@ -399,8 +364,7 @@ module.exports = {
             status: 'Alive',
             occupation: ['Prostitute'],
             img: 'https://vignette.wikia.nocookie.net/breakingbad/images/c/cc/Wendy.jpg/revision/latest?cb=20170721162715',
-            portrayed: 'Julie Minesci',
-            category: ['Breaking Bad']
+            portrayed: 'Julie Minesci'
         },
         {
             char_id: 37,
@@ -410,8 +374,7 @@ module.exports = {
             status: 'Alive',
             occupation: ['Former owner of A1A Car Wash'],
             img: 'https://i.pinimg.com/originals/d5/c0/34/d5c0345ae70fbdbaa33b7537d685da54.jpg',
-            portrayed: 'Marius Stan',
-            category: ['Breaking Bad']
+            portrayed: 'Marius Stan'
         },
         {
             char_id: 38,
@@ -421,8 +384,7 @@ module.exports = {
             status: 'Alive',
             occupation: ['Stock Broker'],
             img: 'https://vignette.wikia.nocookie.net/breakingbad/images/8/8c/Ken.png/revision/latest?cb=20170721163649',
-            portrayed: 'Kyle Bornheimer',
-            category: ['Breaking Bad']
+            portrayed: 'Kyle Bornheimer'
         },
         {
             char_id: 39,
@@ -432,8 +394,7 @@ module.exports = {
             status: 'Alive',
             occupation: ['Infant'],
             img: 'https://static.wikia.nocookie.net/breakingbad/images/0/08/Tumblr_lqddc79K9S1qc5omm.png/revision/latest?cb=20111012055605',
-            portrayed: 'Unknown',
-            category: ['Breaking Bad']
+            portrayed: 'Unknown'
         },
         {
             char_id: 40,
@@ -443,8 +404,7 @@ module.exports = {
             status: 'Alive',
             occupation: ['Former Head of Albuquerque DEA'],
             img: 'https://m.media-amazon.com/images/M/MV5BMTkwMTkxNjUzM15BMl5BanBnXkFtZTgwMTg5MTczMTE@._V1_UY317_CR175,0,214,317_AL_.jpg',
-            portrayed: 'Michael Shamus Wiles',
-            category: ['Breaking Bad']
+            portrayed: 'Michael Shamus Wiles'
         },
         {
             char_id: 41,
@@ -454,8 +414,7 @@ module.exports = {
             status: 'Unknown',
             occupation: ['Air-Traffic Controller', 'Landlord'],
             img: 'https://vignette.wikia.nocookie.net/breakingbad/images/1/12/Donald_Margolis.png/revision/latest?cb=20120802212034',
-            portrayed: 'John de Lancie',
-            category: ['Breaking Bad']
+            portrayed: 'John de Lancie'
         },
         {
             char_id: 42,
@@ -465,8 +424,7 @@ module.exports = {
             status: 'Alive',
             occupation: ['Mechanic'],
             img: 'https://vignette.wikia.nocookie.net/breakingbad/images/0/0f/Clovis.JPG/revision/latest?cb=20100415221013',
-            portrayed: 'Tom Kiesche',
-            category: ['Breaking Bad']
+            portrayed: 'Tom Kiesche'
         },
         {
             char_id: 43,
@@ -476,8 +434,7 @@ module.exports = {
             status: 'Alive',
             occupation: ['DEA agent'],
             img: 'https://res.cloudinary.com/dwvrok1le/image/upload/v1539360786/o7thsjdorobfbetqaefj.jpg',
-            portrayed: 'Todd Terry',
-            category: ['Breaking Bad']
+            portrayed: 'Todd Terry'
         },
         {
             char_id: 44,
@@ -487,8 +444,7 @@ module.exports = {
             status: 'Deceased',
             occupation: ['Henchman of Gustavo Fring'],
             img: 'https://vignette.wikia.nocookie.net/breakingbad/images/4/48/Victor2.png/revision/latest?cb=20131009225027',
-            portrayed: 'Jeremiah Bitsui',
-            category: ['Breaking Bad']
+            portrayed: 'Jeremiah Bitsui'
         },
         {
             char_id: 45,
@@ -498,8 +454,7 @@ module.exports = {
             status: 'Deceased',
             occupation: ['Kid', 'Gang member for a rival dealer in ABQ'],
             img: 'https://vignette.wikia.nocookie.net/breakingbad/images/e/ec/Tomas.png/revision/latest?cb=20130131043014',
-            portrayed: 'Angelo Martinez',
-            category: ['Breaking Bad']
+            portrayed: 'Angelo Martinez'
         },
         {
             char_id: 46,
@@ -512,8 +467,7 @@ module.exports = {
                 'Secretary for Saul Goodman Associates'
             ],
             img: 'https://res.cloudinary.com/dwvrok1le/image/upload/v1539362182/o9mstjonfn6dsdi3uij6.jpg',
-            portrayed: 'Tina Parker',
-            category: ['Breaking Bad', 'Better Call Saul']
+            portrayed: 'Tina Parker'
         },
         {
             char_id: 47,
@@ -523,8 +477,7 @@ module.exports = {
             status: 'Alive',
             occupation: ['Los Pollos Hermanos Manager'],
             img: 'https://res.cloudinary.com/dwvrok1le/image/upload/v1539362375/z63youp272k5mbqbuqj9.jpg',
-            portrayed: 'Ashley Kajiki',
-            category: ['Breaking Bad']
+            portrayed: 'Ashley Kajiki'
         },
         {
             char_id: 48,
@@ -534,8 +487,7 @@ module.exports = {
             status: 'Deceased',
             occupation: ['Juarez Cartel member', 'DEA informant'],
             img: 'https://vignette.wikia.nocookie.net/breakingbad/images/5/58/BBWA_Tortuga.jpg/revision/latest?cb=20131101172007',
-            portrayed: 'Danny Trejo',
-            category: ['Breaking Bad']
+            portrayed: 'Danny Trejo'
         },
         {
             char_id: 49,
@@ -545,8 +497,7 @@ module.exports = {
             status: 'Alive',
             occupation: ['Detective for the APD'],
             img: 'https://vignette.wikia.nocookie.net/breakingbad/images/8/8d/2x02_-_Tim_Roberts.jpg/revision/latest?cb=20110927053954',
-            portrayed: 'Nigel Gibbs',
-            category: ['Breaking Bad']
+            portrayed: 'Nigel Gibbs'
         },
         {
             char_id: 50,
@@ -556,8 +507,7 @@ module.exports = {
             status: 'Deceased',
             occupation: ['Mexican drug cartel boss'],
             img: 'https://vignette.wikia.nocookie.net/breakingbad/images/3/38/Bolsa.png/revision/latest?cb=20180825204033',
-            portrayed: 'Javier Grajeda',
-            category: ['Breaking Bad']
+            portrayed: 'Javier Grajeda'
         },
         {
             char_id: 51,
@@ -567,8 +517,7 @@ module.exports = {
             status: 'Alive',
             occupation: ['Drug & Alcohol Rehabilitation Counselor'],
             img: 'https://vignette.wikia.nocookie.net/breakingbad/images/8/81/Group_Leader_Brown_Shirt_-_Kafkaesque.png/revision/latest?cb=20131025095333',
-            portrayed: 'Jere Burns',
-            category: ['Breaking Bad']
+            portrayed: 'Jere Burns'
         },
         {
             char_id: 52,
@@ -578,8 +527,7 @@ module.exports = {
             status: 'Alive',
             occupation: ['Kid'],
             img: 'https://vignette.wikia.nocookie.net/breakingbad/images/c/cc/Kaylee.png/revision/latest?cb=20170810082843',
-            portrayed: 'Kaija Rose Bales',
-            category: ['Breaking Bad']
+            portrayed: 'Kaija Rose Bales'
         },
         {
             char_id: 53,
@@ -589,8 +537,7 @@ module.exports = {
             status: 'Alive',
             occupation: ['Attorney'],
             img: 'https://res.cloudinary.com/dwvrok1le/image/upload/v1539373707/bbb6muek0tcmbc3g2sog.jpg',
-            portrayed: 'Julie Dretzin',
-            category: ['Breaking Bad']
+            portrayed: 'Julie Dretzin'
         },
         {
             char_id: 54,
@@ -600,8 +547,7 @@ module.exports = {
             status: 'Deceased',
             occupation: ['Owner of Golden Moth Chemical'],
             img: 'https://res.cloudinary.com/dwvrok1le/image/upload/v1539373871/ssk1t4hvo9tmhvdt5hcn.jpg',
-            portrayed: 'James Ning',
-            category: ['Breaking Bad']
+            portrayed: 'James Ning'
         },
         {
             char_id: 55,
@@ -611,8 +557,7 @@ module.exports = {
             status: 'Alive',
             occupation: ['Mother'],
             img: 'https://vignette.wikia.nocookie.net/breakingbad/images/b/b3/StaceyEhrmantraut.png/revision/latest?cb=20150310150049',
-            portrayed: 'Kerry Condon',
-            category: ['Breaking Bad', 'Better Call Saul']
+            portrayed: 'Kerry Condon'
         },
         {
             char_id: 56,
@@ -622,8 +567,7 @@ module.exports = {
             status: 'Alive',
             occupation: ['APD Officer'],
             img: 'https://vignette.wikia.nocookie.net/breakingbad/images/f/f3/Officer_Saxton_-_I.F.T..png/revision/latest?cb=20131025090606',
-            portrayed: 'Stoney Westmoreland',
-            category: ['Breaking Bad']
+            portrayed: 'Stoney Westmoreland'
         },
         {
             char_id: 57,
@@ -633,8 +577,7 @@ module.exports = {
             status: 'Deceased',
             occupation: ['Criminal Gang Leader'],
             img: 'https://vignette.wikia.nocookie.net/breakingbad/images/c/ce/Jack5x13.png/revision/latest?cb=20130912225922',
-            portrayed: 'Michael Bowen',
-            category: ['Breaking Bad']
+            portrayed: 'Michael Bowen'
         },
         {
             char_id: 112,
@@ -644,8 +587,7 @@ module.exports = {
             status: 'Alive',
             occupation: ['Lawyer'],
             img: 'https://vignette.wikia.nocookie.net/breakingbad/images/f/f7/BCS_S4_Kim_Wexler.jpg/revision/latest?cb=20180824195845',
-            portrayed: 'Rhea Seehorn',
-            category: ['Better Call Saul']
+            portrayed: 'Rhea Seehorn'
         },
         {
             char_id: 113,
@@ -655,8 +597,7 @@ module.exports = {
             status: 'Alive',
             occupation: ['Lawyer'],
             img: 'https://vignette.wikia.nocookie.net/breakingbad/images/5/57/BCS_S4_Howard_Hamlin.jpg/revision/latest?cb=20180824195855',
-            portrayed: 'Patrick Fabian',
-            category: ['Better Call Saul']
+            portrayed: 'Patrick Fabian'
         },
         {
             char_id: 114,
@@ -666,8 +607,7 @@ module.exports = {
             status: 'Deceased',
             occupation: ['Lawyer'],
             img: 'https://vignette.wikia.nocookie.net/breakingbad/images/3/3e/BCS_S3_ChuckMcGill.jpg/revision/latest?cb=20170327185308',
-            portrayed: 'Michael McKean',
-            category: ['Better Call Saul']
+            portrayed: 'Michael McKean'
         },
         {
             char_id: 115,
@@ -677,8 +617,7 @@ module.exports = {
             status: 'Alive',
             occupation: ['Crimal Gang Lieutenant'],
             img: 'https://vignette.wikia.nocookie.net/breakingbad/images/b/b1/BCS_S4_Nacho_Varga.jpg/revision/latest?cb=20180824195910',
-            portrayed: 'Michael Mano',
-            category: ['Better Call Saul']
+            portrayed: 'Michael Mano'
         },
         {
             char_id: 116,
@@ -688,8 +627,7 @@ module.exports = {
             status: 'Alive',
             occupation: ['Cartel Member'],
             img: 'https://vignette.wikia.nocookie.net/breakingbad/images/8/85/LaloProfileBCS.png/revision/latest?cb=20180925050152',
-            portrayed: 'Tony Dalton',
-            category: ['Better Call Saul']
+            portrayed: 'Tony Dalton'
         }
     ],
     quotes: [
@@ -1621,5 +1559,86 @@ module.exports = {
         { episode_id: 62, char_id: 17 },
         { episode_id: 62, char_id: 27 },
         { episode_id: 62, char_id: 26 }
+    ],
+    categories: [
+        {
+            category_id: 1,
+            serie: 'Breaking Bad'
+        },
+        {
+            category_id: 2,
+            serie: 'Better Call Saul'
+        }
+    ],
+    characters_categories: [
+        { category_id: 1, char_id: 1 },
+        { category_id: 1, char_id: 2 },
+        { category_id: 1, char_id: 3 },
+        { category_id: 1, char_id: 4 },
+        { category_id: 1, char_id: 5 },
+        { category_id: 1, char_id: 6 },
+        { category_id: 1, char_id: 7 },
+        { category_id: 1, char_id: 8 },
+        { category_id: 1, char_id: 9 },
+        { category_id: 1, char_id: 10 },
+        { category_id: 1, char_id: 11 },
+        { category_id: 1, char_id: 12 },
+        { category_id: 1, char_id: 13 },
+        { category_id: 1, char_id: 14 },
+        { category_id: 1, char_id: 15 },
+        { category_id: 1, char_id: 16 },
+        { category_id: 1, char_id: 17 },
+        { category_id: 1, char_id: 18 },
+        { category_id: 1, char_id: 19 },
+        { category_id: 1, char_id: 20 },
+        { category_id: 1, char_id: 21 },
+        { category_id: 1, char_id: 22 },
+        { category_id: 1, char_id: 23 },
+        { category_id: 1, char_id: 24 },
+        { category_id: 1, char_id: 25 },
+        { category_id: 1, char_id: 26 },
+        { category_id: 1, char_id: 27 },
+        { category_id: 1, char_id: 28 },
+        { category_id: 1, char_id: 29 },
+        { category_id: 1, char_id: 30 },
+        { category_id: 1, char_id: 31 },
+        { category_id: 1, char_id: 32 },
+        { category_id: 1, char_id: 33 },
+        { category_id: 1, char_id: 34 },
+        { category_id: 1, char_id: 35 },
+        { category_id: 1, char_id: 36 },
+        { category_id: 1, char_id: 37 },
+        { category_id: 1, char_id: 38 },
+        { category_id: 1, char_id: 39 },
+        { category_id: 1, char_id: 40 },
+        { category_id: 1, char_id: 41 },
+        { category_id: 1, char_id: 42 },
+        { category_id: 1, char_id: 43 },
+        { category_id: 1, char_id: 44 },
+        { category_id: 1, char_id: 45 },
+        { category_id: 1, char_id: 46 },
+        { category_id: 1, char_id: 47 },
+        { category_id: 1, char_id: 48 },
+        { category_id: 1, char_id: 49 },
+        { category_id: 1, char_id: 50 },
+        { category_id: 1, char_id: 51 },
+        { category_id: 1, char_id: 52 },
+        { category_id: 1, char_id: 53 },
+        { category_id: 1, char_id: 54 },
+        { category_id: 1, char_id: 55 },
+        { category_id: 1, char_id: 56 },
+        { category_id: 1, char_id: 57 },
+        { category_id: 2, char_id: 7 },
+        { category_id: 2, char_id: 8 },
+        { category_id: 2, char_id: 9 },
+        { category_id: 2, char_id: 10 },
+        { category_id: 2, char_id: 12 },
+        { category_id: 2, char_id: 46 },
+        { category_id: 2, char_id: 55 },
+        { category_id: 2, char_id: 112 },
+        { category_id: 2, char_id: 113 },
+        { category_id: 2, char_id: 114 },
+        { category_id: 2, char_id: 115 },
+        { category_id: 2, char_id: 116 }
     ]
 };

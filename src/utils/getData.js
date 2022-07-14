@@ -1,3 +1,4 @@
+const axios = require('axios');
 const breakingbBadApiRepository = require('../repositories/breakingbadapi.repositories');
 const formatDate = require('./formatDate');
 
@@ -13,12 +14,12 @@ getCharacters = async () => {
             occupation: e.occupation,
             img: e.img,
             portrayed: e.portrayed,
-            category: e.category.split(', ')
+            // category: e.category.split(', ')
         }
     });
 }
 
-// getCharacters().then(res => console.log(res));
+getCharacters().then(res => console.log(res));
 
 getQuotes = async () => {
     const quotes = await breakingbBadApiRepository.getAllQuotes();
@@ -76,4 +77,30 @@ getCharactersEpisodes = async () => {
     return characters_episodes;
 }
 
-getCharactersEpisodes().then(res => console.log(res));
+// getCharactersEpisodes().then(res => console.log(res));
+
+getBBCharacters = async () => {
+    const BBCharacters = (await axios.get('https://breakingbadapi.com/api/characters?category=Breaking+Bad')).data;
+    return BBCharacters.map(e => {
+        return {
+            category_id: 1,
+            char_id: e.char_id
+
+        }
+    })
+}
+
+// getBBCharacters().then(res => console.log(res));
+
+getBCSCharacters = async () => {
+    const BCSCharacters = (await axios.get('https://breakingbadapi.com/api/characters?category=Better+Call+Saul')).data;
+    return BCSCharacters.map(e => {
+        return {
+            category_id: 2,
+            char_id: e.char_id
+
+        }
+    })
+}
+
+// getBCSCharacters().then(res => console.log(res));

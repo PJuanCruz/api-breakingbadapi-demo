@@ -14,6 +14,7 @@ module.exports = (sequelize, DataTypes) => {
             // define association here
             Character.hasMany(models.Quote, { as: 'quotes', foreignKey: 'char_id' });
             Character.belongsToMany(models.Episode, { as: 'appearance', through: 'Characters_Episodes', foreignKey: 'char_id' });
+            Character.belongsToMany(models.Category, { as: 'categories', through: 'Characters_Categories', foreignKey: 'char_id' });
         }
     }
     Character.init({
@@ -57,13 +58,13 @@ module.exports = (sequelize, DataTypes) => {
         portrayed: {
             type: DataTypes.STRING
         },
-        category: {
-            // type: DataTypes.ARRAY(DataTypes.ENUM(['Breaking Bad', 'Better Call Saul'])),
-            type: DataTypes.ARRAY(DataTypes.STRING),
-            set(value) {
-                this.setDataValue('category', value.split(', '));
-            }
-        }
+        // category: {
+        //     // type: DataTypes.ARRAY(DataTypes.ENUM(['Breaking Bad', 'Better Call Saul'])),
+        //     type: DataTypes.ARRAY(DataTypes.STRING),
+        //     set(value) {
+        //         this.setDataValue('category', value.split(', '));
+        //     }
+        // }
     }, {
         sequelize,
         modelName: 'Character',

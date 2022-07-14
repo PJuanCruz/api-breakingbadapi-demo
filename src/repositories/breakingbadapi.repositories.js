@@ -2,7 +2,6 @@ const axios = require('axios');
 
 class BreakingbBadApiRepository {
     constructor() {
-        // Base Url
         this.baseURL = 'https://breakingbadapi.com/api';
     }
 

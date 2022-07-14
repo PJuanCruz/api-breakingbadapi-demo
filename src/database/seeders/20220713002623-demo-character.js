@@ -17,6 +17,8 @@ module.exports = {
         await queryInterface.bulkInsert('Quotes', data.quotes, {});
         await queryInterface.bulkInsert('Episodes', data.episodes, {});
         await queryInterface.bulkInsert('Characters_Episodes', data.characters_episodes, {});
+        await queryInterface.bulkInsert('Categories', data.categories, {});
+        await queryInterface.bulkInsert('Characters_Categories', data.characters_categories, {});
     },
 
     async down(queryInterface, Sequelize) {
@@ -30,5 +32,7 @@ module.exports = {
         await queryInterface.bulkDelete('Quotes', null, {});
         await queryInterface.bulkDelete('Episodes', null, {});
         await queryInterface.bulkDelete('Characters_Episodes', null, {});
+        await queryInterface.bulkDelete('Categories', null, {});
+        await queryInterface.bulkDelete('Characters_Categories', null, {});
     }
 };
