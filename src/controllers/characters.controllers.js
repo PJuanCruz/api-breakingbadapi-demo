@@ -1,5 +1,5 @@
 const { Op } = require('sequelize');
-const { Character, Category } = require('../models');
+const { Character } = require('../models');
 
 const getAllCharacters = async (req, res) => {
 
