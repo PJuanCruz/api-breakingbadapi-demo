@@ -50,7 +50,7 @@ const getAllCharacters = async (req, res) => {
                 },
                 {
                     association: 'categories',
-                    attributes: ['serie'],
+                    attributes: [],
                     through: {
                         attributes: []
                     },
